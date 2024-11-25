@@ -1,0 +1,131 @@
+.works_ogata {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	
+	display: flex;
+	background-color: #6dcfb7;
+}
+
+.works{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	
+	/* display: flex; */
+	background-color: #6dcfb7;
+}
+
+
+
+.info-flex{
+	display: flex;
+}
+
+
+.cards-list {
+	width: 930px;
+	max-width: 90%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 430px);
+	column-gap: 5px;
+	row-gap: 0px;
+	justify-content: center;
+  }
+
+
+
+.info {
+	width: 45%;
+	display: inline-block;
+	margin: 0 4%;
+}
+
+.title{
+	font-size: 46px;
+	font-style: oblique;
+	color: #3388dd;
+}
+
+.info-title {
+	width: 100%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* margin: 0 4%; */
+}
+
+.info-name {
+	font-size: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+.owner{
+	font-size: 30px;
+	font-style: oblique;
+	color: #215890;
+}
+
+.info > h2 {
+	font-size: 40px;
+	color: black;
+}
+
+
+.info-title > h2 {
+	font-size: 40px;
+	color: black;
+}
+
+
+.info-name > h3{
+
+	font-size: 28px;
+	margin: 0 4%;
+
+	color: black;
+}
+
+.info-title > h3{
+	font-size: 28px;
+	margin: 5% 1%;
+	color: black;
+}
+
+.info > h3{
+	font-size: 28px;
+	margin: 5% 1%;
+	color: black;
+}
+
+.info > p {
+	padding-left: 1em;
+	font-size: 20px;
+	margin: 5% 1%;
+}
+
+/* .info > pre{
+	font-size: 28px;
+	margin: 5% 1%;
+	color: black;
+} */
+
+.movie {
+	display: inline-block;
+	width: 38%;
+	margin: auto auto;
+}
+
+.movie > video{
+	width: 100%;
+}
